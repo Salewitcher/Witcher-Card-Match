@@ -10,10 +10,49 @@
 
 /* General styles */
 body {
-    min-height: 150vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     color: whitesmoke;
     font-family: 'Tapestry', sans-serif;
     background: black;
+}
+
+h2 {
+    margin: 1rem;
+}
+
+/* Modal Idea taken from W3Schools */
+/* Modal Content */
+.modal-content {
+    margin: auto;
+    background-color: hsl(0, 59%, 48%);
+    padding: 1rem;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 10px;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#myBtn {
+    font-family: 'Tapestry', sans-serif;
+    width: fit-content;
+    align-self: center;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    padding: 5px;
 }
