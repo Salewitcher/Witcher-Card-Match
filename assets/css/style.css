@@ -22,15 +22,20 @@ h2 {
     margin: 1rem;
 }
 
+h3 {
+    margin-bottom: 15px;
+}
+
 /* Modal Idea taken from W3Schools */
 /* Modal Content */
 .modal-content {
     margin: auto;
-    background-color: hsl(0, 59%, 48%);
+    background-color: hwb(0 5% 42%);
     padding: 1rem;
     border: 1px solid #888;
     width: 80%;
     border-radius: 10px;
+    max-width: 500px;
 }
 
 /* The Close Button */
@@ -55,4 +60,27 @@ h2 {
     border-radius: 10px;
     margin-bottom: 1rem;
     padding: 5px;
+}
+
+/* Game Background */
+#game-background {
+    background: url('../images/background-game.jpg') no-repeat center center/cover;
+    height: 50vh;
+    width: 100%;
+    max-width: 1000px;
+    align-self: center;
+}
+
+/* Media Query: Tablets and larger (768px and up)*/
+@media screen and (min-width: 768px) {
+    #game-background {
+        height: 55vh;
+    }
+}
+
+/* Media Query: Large devices (992px and up)*/
+@media screen and (min-width: 768px) {
+    #game-background {
+        height: 65vh;
+    }
 }
