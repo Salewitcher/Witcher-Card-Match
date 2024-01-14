@@ -69,6 +69,20 @@ h3 {
     width: 100%;
     max-width: 1000px;
     align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+/* Game Board */
+#game-board {
+    background: #1b0505;
+    opacity: .4;
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
+
 }
 
 /* Media Query: Tablets and larger (768px and up)*/

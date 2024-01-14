@@ -1,6 +1,6 @@
 // Modal Idea taken from W3Schools
 // Get the modal
-let modal = document.getElementById("myModal");
+const modal = document.getElementById("myModal");
 
 // Get the button that opens the modal
 let btn = document.getElementById("myBtn");
