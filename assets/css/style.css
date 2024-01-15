@@ -82,7 +82,15 @@ h3 {
     width: 80%;
     height: 80%;
     border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
 
+}
+
+.cards {
+    height: 19%;
+    width: 24%;
+    margin: 2px;
 }
 
 /* Media Query: Tablets and larger (768px and up)*/

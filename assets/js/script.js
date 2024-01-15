@@ -20,7 +20,23 @@ span.onclick = function () {
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function (event) {
-    if (event.target == modal) {
+    if (event.target === modal) {
         modal.style.display = "none";
     }
 };
+
+// Track mistakes
+let mistakes = 0;
+// Card Names
+let cardList = [
+    "ciri",
+    "dethlaff",
+    "eredin",
+    "fiend",
+    "foglet",
+    "geralt2",
+    "leto",
+    "oligierd",
+    "werewolf",
+    "yennefer"
+];
