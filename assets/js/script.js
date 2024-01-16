@@ -26,9 +26,9 @@ window.onclick = function (event) {
 };
 
 // Track mistakes
-let mistakes = 0;
+var mistakes = 0;
 // Card Names
-let cardList = [
+var cardList = [
     "ciri",
     "dethlaff",
     "eredin",
@@ -41,10 +41,10 @@ let cardList = [
     "yennefer"
 ];
 
-let cardSet;
-let gameBoard = [];
-let rows = 4;
-let columns = 5;
+var cardSet;
+var gameBoard = [];
+var rows = 4;
+var columns = 5;
 
 // Page Load
 window.onload = function () {
@@ -54,4 +54,11 @@ window.onload = function () {
 
 function shuffleCards() {
     cardSet = cardList.concat(cardList); //Duplicate cards
+}
+// Shuffle cards
+for (let i = 0; i < cardSet.lenght; i++) {
+    let r = Math.floor(Math.random() * cardSet.lenght);
+    let temporary = cardSet[i];
+    cardSet[i] = cardSet[r];
+    cardSet[r] = temporary;
 }
