@@ -40,3 +40,18 @@ let cardList = [
     "werewolf",
     "yennefer"
 ];
+
+let cardSet;
+let gameBoard = [];
+let rows = 4;
+let columns = 5;
+
+// Page Load
+window.onload = function () {
+    shuffleCards();
+    startGame();
+};
+
+function shuffleCards() {
+    cardSet = cardList.concat(cardList); //Duplicate cards
+}
