@@ -78,5 +78,18 @@ function startGame() {
             cards.classList.add('cards');
             document.getElementById('game-board').append(cards);
         }
+        game - board.push(row);
+    }
+
+    console.log(game - board);
+    setTimeout(hideCards, 1000);
+}
+
+function hideCards() {
+    for (let r = 0; r < rows; r++) {
+        for (let c = 0; c < columns; c++) {
+            let cards = document.getElementById(r.toString() + "-" + c.toString());
+            cards.src = "back-side.jpg";
+        }
     }
 }
