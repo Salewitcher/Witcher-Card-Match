@@ -59,6 +59,24 @@ function shuffleCards() {
 for (let i = 0; i < cardSet.lenght; i++) {
     let r = Math.floor(Math.random() * cardSet.lenght);
     let temporary = cardSet[i];
-    cardSet[i] = cardSet[r];
-    cardSet[r] = temporary;
+    cardSet[i] = cardSet[t];
+    cardSet[t] = temporary;
+}
+
+function startGame() {
+    // Set cards on board
+    for (let r = 0; r < rows; r++) {
+        let row = [];
+        for (let c = 0; c < columns; c++) {
+            let cardImg = cardSet.pop();
+            row.push(cardImg);
+
+            // <img>
+            let cards = document.createElement('img');
+            cards.id = r.toString() + '-' + c.toString();
+            cards.src = cardImg + '.jpg';
+            cards.classList.add('cards');
+            document.getElementById('game-board').append(cards);
+        }
+    }
 }
