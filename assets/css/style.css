@@ -76,7 +76,7 @@ h3 {
 }
 
 /* Game Board */
-#game-board {
+#board {
     background: #1b0505;
     opacity: .4;
     width: 80%;
@@ -88,7 +88,7 @@ h3 {
 }
 
 /* Cards styling */
-.cards {
+img {
     height: 19%;
     width: 24%;
     border-radius: 10px;
