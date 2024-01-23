@@ -3,10 +3,10 @@
 const modal = document.getElementById("myModal");
 
 // Get the button that opens the modal
-let btn = document.getElementById("myBtn");
+const btn = document.getElementById("myBtn");
 
 // Get the <span> element that closes the modal
-let span = document.getElementsByClassName("close")[0];
+const span = document.getElementsByClassName("close")[0];
 
 // When the user clicks the button, open the modal 
 btn.onclick = function () {
@@ -79,7 +79,6 @@ function startGame() {
             // <img id="0-0" class="card" src="water.jpg">
             let card = document.createElement("img");
             card.id = r.toString() + "-" + c.toString();
-            card.src = cardImg + ".jpg";
             card.classList.add("card");
             card.addEventListener("click", selectCard);
             document.getElementById("board").append(card);
@@ -96,7 +95,7 @@ function hideCards() {
     for (let r = 0; r < rows; r++) {
         for (let c = 0; c < columns; c++) {
             let card = document.getElementById(r.toString() + "-" + c.toString());
-            card.src = "back.jpg";
+            card.src = "assets/images/back.jpg";
         }
     }
 }

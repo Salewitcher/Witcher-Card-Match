@@ -88,7 +88,7 @@ h3 {
 }
 
 /* Cards styling */
-img {
+.card {
     height: 19%;
     width: 24%;
     border-radius: 10px;
