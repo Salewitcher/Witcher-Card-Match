@@ -80,7 +80,7 @@ function startGame() {
             let cardImg = cardSet.pop();
             row.push(cardImg); //JS
 
-            // <img id="0-0" class="card" src="water.jpg">
+            // <img id="0-0" class="card" src="./assets/images/back.jpg">
             let card = document.createElement("img");
             card.id = r.toString() + "-" + c.toString();
             card.classList.add("card");
@@ -99,7 +99,7 @@ function hideCards() {
     for (let r = 0; r < rows; r++) {
         for (let c = 0; c < columns; c++) {
             let card = document.getElementById(r.toString() + "-" + c.toString());
-            card.src = "assets/images/back.jpg";
+            card.src = "./assets/images/back.jpg";
         }
     }
 }
@@ -114,7 +114,7 @@ function selectCard() {
             let r = parseInt(coords[0]);
             let c = parseInt(coords[1]);
 
-            card1Selected.src = board[r][c] + ".jpg";
+            card1Selected.src = "./assets/images/" + board[r][c] + ".jpg";
         }
         else if (!card2Selected && this != card1Selected) {
             card2Selected = this;
@@ -123,7 +123,7 @@ function selectCard() {
             let r = parseInt(coords[0]);
             let c = parseInt(coords[1]);
 
-            card2Selected.src = board[r][c] + ".jpg";
+            card2Selected.src = "./assets/images/" + board[r][c] + ".jpg";
             setTimeout(update, 1000);
         }
     }
@@ -133,8 +133,8 @@ function selectCard() {
 function update() {
     //if cards aren't the same, flip both back
     if (card1Selected.src != card2Selected.src) {
-        card1Selected.src = "back.jpg";
-        card2Selected.src = "back.jpg";
+        card1Selected.src = "./assets/images/back.jpg";
+        card2Selected.src = "./assets/images/back.jpg";
         errors += 1;
         document.getElementById("errors").innerText = errors;
     }
