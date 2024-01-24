@@ -30,8 +30,8 @@ window.addEventListener('click', function (event) {
 });
 
 // Code from "https://www.youtube.com/watch?v=wz9jeI9M9hI"
-var errors = 0;
-var cardList = [
+let errors = 0;
+let cardList = [
     "ciri",
     "dethlaff",
     "eredin",
@@ -45,13 +45,13 @@ var cardList = [
 ];
 
 
-var cardSet;
-var board = [];
-var rows = 4;
-var columns = 5;
+let cardSet;
+let board = [];
+let rows = 4;
+let columns = 5;
 
-var card1Selected;
-var card2Selected;
+let card1Selected;
+let card2Selected;
 
 window.onload = function () {
     shuffleCards();
