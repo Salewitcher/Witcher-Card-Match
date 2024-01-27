@@ -100,6 +100,7 @@ function hideCards() {
         for (let c = 0; c < columns; c++) {
             let card = document.getElementById(r.toString() + "-" + c.toString());
             card.src = "./assets/images/back.jpg";
+            card.alt = "Image trapped between worlds";
         }
     }
 }
