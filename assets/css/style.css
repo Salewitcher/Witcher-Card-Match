@@ -28,6 +28,10 @@ h3 {
 
 /* Modal Idea taken from W3Schools */
 /* Modals Content */
+#instructionModal, #winModal {
+    display: none;
+}
+
 .modal-content {
     margin: auto;
     background-color: hwb(0 5% 42%);
@@ -62,8 +66,8 @@ button {
     padding: 5px;
 }
 
-#modalText {
-    margin-bottom: 10px;
+#modal2Text {
+    margin-bottom: 20px;
 }
 
 /* Game Background */
