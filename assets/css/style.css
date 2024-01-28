@@ -27,7 +27,7 @@ h3 {
 }
 
 /* Modal Idea taken from W3Schools */
-/* Modal Content */
+/* Modals Content */
 .modal-content {
     margin: auto;
     background-color: hwb(0 5% 42%);
@@ -53,13 +53,17 @@ h3 {
     cursor: pointer;
 }
 
-#myBtn {
+button {
     font-family: 'Tapestry', sans-serif;
     width: fit-content;
     align-self: center;
     border-radius: 10px;
     margin-bottom: 1rem;
     padding: 5px;
+}
+
+#modalText {
+    margin-bottom: 10px;
 }
 
 /* Game Background */
