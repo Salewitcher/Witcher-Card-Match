@@ -44,7 +44,7 @@ let cardList = [
     "yennefer"
 ];
 
-
+let matchedPairs = 0;
 let cardSet;
 let board = [];
 let rows = 4;
@@ -132,8 +132,14 @@ function selectCard() {
 }
 
 function update() {
-    //if cards aren't the same, flip both back
-    if (card1Selected.src != card2Selected.src) {
+    // When player hits 10 matched cards show win message
+    if (card1Selected.src === card2Selected.src) {
+        matchedPairs += 1;
+        if (matchedPairs === cardList.length) {
+            showWinMessage();
+        }
+    } else {
+        // If cards aren't the same, flip both back
         card1Selected.src = "./assets/images/back.jpg";
         card2Selected.src = "./assets/images/back.jpg";
         errors += 1;
@@ -142,4 +148,36 @@ function update() {
 
     card1Selected = null;
     card2Selected = null;
+}
+
+// When show win message pops up display the modal with play again or quit buttons
+function showWinMessage() {
+    let modal = document.getElementById("winModal");
+    modal.style.display = "block";
+    document.getElementById("modalText").innerText = "Congratulations! You've matched all pairs.";
+    document.getElementById("modalButtons").innerHTML = `
+        <button onclick="playAgain()">Try Again</button>
+        <button onclick="quitGame()">Quit</button>
+    `;
+}
+
+// Play again and quit functions
+function playAgain() {
+    resetGame();
+    let modal = document.getElementById("winModal");
+    modal.style.display = "none";
+}
+
+function quitGame() {
+    let modal = document.getElementById("winModal");
+    modal.style.display = "none";
+    
+}
+
+function resetGame() {
+    matchedPairs = 0;
+    errors = 0;
+    document.getElementById("errors").innerText = errors;
+    shuffleCards();
+    startGame();
 }
