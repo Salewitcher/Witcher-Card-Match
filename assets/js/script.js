@@ -177,6 +177,7 @@ function resetGame() {
     matchedPairs = 0;
     errors = 0;
     document.getElementById("errors").innerText = errors;
+    document.getElementById("board").innerHTML = "";
     shuffleCards();
     startGame();
 }
