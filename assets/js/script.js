@@ -60,7 +60,7 @@ window.onload = function () {
 
 function shuffleCards() {
     cardSet = cardList.concat(cardList); //two of each card
-    console.log(cardSet);
+    
     //shuffle
     for (let i = 0; i < cardSet.length; i++) {
         let j = Math.floor(Math.random() * cardSet.length); //get random index
@@ -69,7 +69,7 @@ function shuffleCards() {
         cardSet[i] = cardSet[j];
         cardSet[j] = temp;
     }
-    console.log(cardSet);
+    
 }
 
 function startGame() {
@@ -91,7 +91,6 @@ function startGame() {
         board.push(row);
     }
 
-    console.log(board);
     setTimeout(hideCards, 1000);
 }
 
@@ -152,10 +151,10 @@ function update() {
 
 // When show win message pops up display the modal with play again or quit buttons
 function showWinMessage() {
-    let modal = document.getElementById("winModal");
-    modal.style.display = "block";
-    document.getElementById("modalText").innerText = "Congratulations! You've matched all pairs.";
-    document.getElementById("modalButtons").innerHTML = `
+    let modal2 = document.getElementById("winModal");
+    modal2.style.display = "block";
+    document.getElementById("modal2Text").innerText = "Congratulations! You've got rid of the vermin!";
+    document.getElementById("modal2Buttons").innerHTML = `
         <button onclick="playAgain()">Try Again</button>
         <button onclick="quitGame()">Quit</button>
     `;
@@ -164,13 +163,13 @@ function showWinMessage() {
 // Play again and quit functions
 function playAgain() {
     resetGame();
-    let modal = document.getElementById("winModal");
-    modal.style.display = "none";
+    let modal2 = document.getElementById("winModal");
+    modal2.style.display = "none";
 }
 
 function quitGame() {
-    let modal = document.getElementById("winModal");
-    modal.style.display = "none";
+    let modal2 = document.getElementById("winModal");
+    modal2.style.display = "none";
     
 }
 
