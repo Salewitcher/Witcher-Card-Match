@@ -1,6 +1,6 @@
-# Chess Lovers
+# Witcher Card Match
 
-Chess Lovers is a club site that intends to gather people that like to learn, play & enjoy the beautiful game of chess. This site will be targeted towards all ages regardless if they are begginers, intermediate or advanced. Chess Lovers will have the options for new students to sign up for classes but also for those that do not wish to learn but just to enjoy a game or two.
+Witcher Card Match is a game that intends to attract people that are first of all gamers and after that lovers of the "Witcher" books, games TV Series or what not. This game will be targeted towards all ages that are passionate and love the "Witcher" universe in general. Witcher Card Match will give users the oportunity to develop their memory abilities while having fun.
 
 ![Responsive Mockup](media/amiresponsive_chess_lovers.png)
 
