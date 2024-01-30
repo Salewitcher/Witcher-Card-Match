@@ -9,62 +9,48 @@ Witcher Card Match is a game that intends to attract people that are first of al
 
 ### Existing Features
 
-- **Navigation Bar**
+- **Card matching**
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, History and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
-  - It also has some nice animation on the logo and navbar links hover.
+  - Users are able to click the cards to reveal images and match pairs of cards.
+ 
+![Card matching Desktop](media\card_matching_desktop.png)
+![Card matching Mobile](media\card_matching_mobile.png)
 
-![Nav Bar Desktop](media/navbar_desktop.png)
-![Nav Bar Mobile](media/navbar_mobile.png)
+- **Game Board**
 
-- **The landing page image**
+  - Users can play on a dynamically created 4x5 grid.
 
-  - The landing includes a photograph with text overlay to attract the user to see that there is a chess club nearby which accepts new members
-  - This section introduces the user to Chess Lovers with an interesting chess piece picture to intrigue them.
+![Game Board](media\gameboard.png)
 
-![Landing Page](media/landing_page_image.png)
+- **Shuffling Cards**
 
-- **Introduction to chess section**
+  - Cards are shuffled at the beginning of the game for randomness.
 
-  - The Introduction to chess section will welcome the user & let the user read a short explanation about what chess is.
-  - Hopefully this will light a spark of curiosity within them.
-  - More expirienced players as always would like to check the page also as it is in their nature.
+![Shuffling Cards](media\shuffling_cards.png)
 
-![Introduction to chess](media/chess_introduction.png)
+- **Winning Condition**
 
-- **Life through chessboard section**
+  - If the users match all pairs they will win and trigger a victory message.
 
-  - This section will allow the user to learn that chess has great mental benefits.
-  - The user will get to see some wisdom that came from some of the greatest chess geniuses.
-  - The user will also take a life lesson or two by reading the quotes.
+![Winning Condition](media\winning_condition.png)
 
-![Life through chessboard](media/life_chess.png)
-
-- **Finally section**
+- **Errors Count**
   
-  - This section contains a Youtube responsive video which serves to further wake up the user`s curiosity.
-  - This section navigates the user where to find contact information & where to sign up.
+  - Users can keep track of errors to challenge themselves.
 
-![Finally](media/finally.png)
+![Errors Count](media\errors_count.png)
 
-- **The Footer**
+- **Modals**
 
-  - The footer section includes links to the relevant social media sites for Chess Lovers. The links will open to a new tab to allow easy navigation for the user.
-  - The footer is valuable to the user as it encourages them to keep connected via social media.
-  - The links in the footer have hover-grow effect for better UX.
+  - Users can choose to get instructions at the start if they click the corresponding button which shows the instruction modal, and see another modal when they win.
 
-![Footer](media/footer.png)
+![Modals](media\modals.png)
 
-- **History Page**
+- **Try Again and Quit Buttons**
 
-  - The short history section will tell the user of how different nations viewed chess & explain the origin of the name.
-  - The origin section will provide the user with insight of how chess came to be.
-  - The arrival to Europe section will tell the user of how chess spreaded through time.
+  - Users have a choice to try again or quit the game(First button resets and the second stops the game).
 
-![History Page](media/short_history.png)
-![History Page](media/origin.png)
-![History Page](media/europe.png)
+![Try Again and Quit buttons](media\modals.png)
 
 - **The Sign Up Page**
 
