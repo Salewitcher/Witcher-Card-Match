@@ -2,7 +2,7 @@
 
 Witcher Card Match is a game that intends to attract people that are first of all gamers and after that lovers of the "Witcher" books, games TV Series or what not. This game will be targeted towards all ages that are passionate and love the "Witcher" universe in general. Witcher Card Match will give users the oportunity to develop their memory abilities while having fun.
 
-![Responsive Mockup](media\amiresponsive_witcher.png)
+![Responsive Mockup](media/amiresponsive_witcher.png)
 
 ## Features
 
@@ -13,44 +13,44 @@ Witcher Card Match is a game that intends to attract people that are first of al
 
   - Users are able to click the cards to reveal images and match pairs of cards.
  
-![Card matching Desktop](media\card_matching_desktop.png)
-![Card matching Mobile](media\card_matching_mobile.png)
+![Card matching Desktop](media/card_matching_desktop.png)
+![Card matching Mobile](media/card_matching_mobile.png)
 
 - **Game Board**
 
   - Users can play on a dynamically created 4x5 grid.
 
-![Game Board](media\gameboard.png)
+![Game Board](media/gameboard.png)
 
 - **Shuffling Cards**
 
   - Cards are shuffled at the beginning of the game for randomness.
 
-![Shuffling Cards](media\shuffling_cards.png)
+![Shuffling Cards](media/shuffling_cards.png)
 
 - **Winning Condition**
 
   - If the users match all pairs they will win and trigger a victory message.
 
-![Winning Condition](media\winning_condition.png)
+![Winning Condition](media/winning_condition.png)
 
 - **Errors Count**
   
   - Users can keep track of errors to challenge themselves.
 
-![Errors Count](media\errors_count.png)
+![Errors Count](media/errors_count.png)
 
 - **Modals**
 
   - Users can choose to get instructions at the start if they click the corresponding button which shows the instruction modal, and see another modal when they win.
 
-![Modals](media\modals.png)
+![Modals](media/modals.png)
 
 - **Try Again and Quit Buttons**
 
   - Users have a choice to try again or quit the game(First button resets and the second stops the game).
 
-![Try Again and Quit buttons](media\modals.png)
+![Try Again and Quit buttons](media/modals.png)
 
 - **The Sign Up Page**
 
