@@ -2,7 +2,7 @@
 
 Witcher Card Match is a game that intends to attract people that are first of all gamers and after that lovers of the "Witcher" books, games TV Series or what not. This game will be targeted towards all ages that are passionate and love the "Witcher" universe in general. Witcher Card Match will give users the oportunity to develop their memory abilities while having fun.
 
-![Responsive Mockup](media/amiresponsive_chess_lovers.png)
+![Responsive Mockup](media\amiresponsive_witcher.png)
 
 ## Features
 
