@@ -1,6 +1,6 @@
-# Witcher Card Match
+# Witcher Card Game
 
-Witcher Card Match is a game that intends to attract people that are first of all gamers and after that lovers of the "Witcher" books, games TV Series or what not. This game will be targeted towards all ages that are passionate and love the "Witcher" universe in general. Witcher Card Match will give users the oportunity to develop their memory abilities while having fun.
+Witcher Card Game is a game that intends to attract people that are first of all gamers and after that lovers of the "Witcher" books, games TV Series or what not. This game will be targeted towards all ages that are passionate and love the "Witcher" universe in general. Witcher Card Match will give users the oportunity to develop their memory abilities while having fun.
 
 ![Responsive Mockup](media/amiresponsive_witcher.png)
 
@@ -105,7 +105,7 @@ Witcher Card Match is a game that intends to attract people that are first of al
 
 ### Fixed Bugs
 
-- H1 hover grow didn`t work on larger screens (solution: Change font-size and transfer styling in media query)
+- Images for README.md were not visible (solution : instead of "\" put "/" in the path)
 - Missing part of screen (solution: fixed by adding padding px instead %)
 - scale:value; said command doesn`t exist (solution: transition: scale(value))
 
@@ -140,7 +140,7 @@ The live link can be found here - <https://salewitcher.github.io/Chess-Lovers/>
 
 ### Media
 
-- The favicon used on the home and sign up page is from [Chess icons created by VectorPortal - Flaticon](https://www.flaticon.com/free-icons/chess)
+- The favicon used is from [Google](https://www.google.com/search?q=witcher+wolf+school+logo+jpg+download&sca_esv=27178ea4ecd47877&rlz=1C1CHZN_enIE1075IE1075&sxsrf=ACQVn09fPZNenzhSjTRNBHaFX_cnUczegA%3A1706647641187&ei=WWC5ZYPUCpWBhbIPt4mPsAE&oq=witcher+wolf&gs_lp=Egxnd3Mtd2l6LXNlcnAiDHdpdGNoZXIgd29sZioCCAAyBBAjGCcyCxAuGIAEGIoFGJECMgUQABiABDILEAAYgAQYigUYkQIyCxAAGIAEGIoFGJECMgUQABiABDILEAAYgAQYigUYkQIyBRAAGIAEMgUQABiABDIFEAAYgARIwihQAFiQFHAAeAGQAQGYAcYCoAHRDKoBBzcuMy4wLjK4AQHIAQD4AQHCAgoQIxiABBiKBRgnwgIKEAAYgAQYigUYQ8ICChAuGIAEGIoFGEPCAgsQLhiABBixAxiDAcICCxAAGIAEGLEDGIMBwgIOEC4YgAQYsQMYxwEY0QPCAhcQLhiABBiKBRiRAhixAxiDARjHARjRA8ICERAuGIAEGLEDGMcBGK8BGI4FwgIOEC4YgAQYigUYsQMYgwHCAhAQLhiABBiKBRhDGLEDGNQCwgIQEAAYgAQYFBiHAhixAxiDAcICCBAAGIAEGLEDwgIQEC4YQxjUAhixAxiABBiKBcICBRAuGIAE4gMEGAAgQQ&sclient=gws-wiz-serp)
 - The icons in the footer & navbar menu were taken from [Font Awesome](https://fontawesome.com/)
 
 [Back To Top](#chess-lovers)
