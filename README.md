@@ -1,6 +1,6 @@
 # Witcher Card Game
 
-Witcher Card Game is a game that intends to attract people that are first of all gamers and after that lovers of the "Witcher" books, games TV Series or what not. This game will be targeted towards all ages that are passionate and love the "Witcher" universe in general. Witcher Card Match will give users the oportunity to develop their memory abilities while having fun.
+Witcher Card Game is a game that intends to attract people who are first of all gamers and after that lovers of the "Witcher" books, games TV Series, or whatnot. This game will be targeted towards all ages that are passionate and love the "Witcher" universe in general. Witcher Card Match will allow users to develop their memory abilities while having fun.
 
 ![Responsive Mockup](media/amiresponsive_witcher.png)
 
@@ -11,7 +11,7 @@ Witcher Card Game is a game that intends to attract people that are first of all
 
 - **Card matching**
 
-  - Users are able to click the cards to reveal images and match pairs of cards.
+  - Users can click the cards to reveal images and match pairs of cards.
  
 ![Card matching Desktop](media/card_matching_desktop.png)
 ![Card matching Mobile](media/card_matching_mobile.png)
@@ -48,7 +48,7 @@ Witcher Card Game is a game that intends to attract people that are first of all
 
 - **Try Again and Quit Buttons**
 
-  - Users have a choice to try again or quit the game(First button resets and the second stops the game).
+  - Users have a choice to try again or quit the game(The first button resets and the second stops the game).
 
 ![Try Again and Quit buttons](media/modals.png)
 
@@ -64,7 +64,7 @@ Witcher Card Game is a game that intends to attract people that are first of all
 - Error counter works
 - Try Again button resets the game
 - Quit button stops the game
-- When all cards are mached a win message appears
+- When all cards are matched a win message appears
 
 
 ### Validator Testing
@@ -98,9 +98,9 @@ Witcher Card Game is a game that intends to attract people that are first of all
 
 ### Fixed Bugs
 
-- Images for README.md were not visible (solution : instead of "\" put "/" in the path)
-- When game starts modals are visible (solution: display: none;)
-- When try again button is clicked the board starts with 40 instead of 20 images (solution: put "resetGame()" into "playAgain()" function and inside it add (document.getElementById("board").innerHTML = "";) so the board starts as an empty string and new cards can be added to it)
+- Images for README.md were not visible (solution: instead of "\" put "/" in the path)
+- When the game starts modals are visible (solution: display: none;)
+- When the "Try Again" button is clicked the board starts with 40 instead of 20 images (solution: put the "resetGame()" into the "playAgain()" function and inside it add (document.getElementById("board").innerHTML = "";) so the board starts as an empty string and new cards can be added to it)
 
 
 ### Errors
@@ -119,11 +119,11 @@ The live link can be found here - <https://salewitcher.github.io/Witcher-Card-Ma
 ## Credits
 
 - Modals Idea taken from [W3Schools](https://www.w3schools.com/)
-- GAme Idea and parts of code taken from [KennyYipCoding](https://www.youtube.com/@KennyYipCoding)
+- Game Idea and parts of code taken from [KennyYipCoding](https://www.youtube.com/@KennyYipCoding)
 
 ### Content
 
-- All content is written by designer with the idea offcourse coming mostly from my favourite ever video game "Witcher 3 - The Wild Hunt""
+- All content is written by the designer with the idea off course coming mostly from designer's favourite ever video game "Witcher 3 - The Wild Hunt""
 
 ### Media
 

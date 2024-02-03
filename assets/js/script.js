@@ -131,7 +131,7 @@ function selectCard() {
 }
 
 function update() {
-    // When player hits 10 matched cards show win message
+    // When player hits 10 matched cards, show win message
     if (card1Selected.src === card2Selected.src) {
         matchedPairs += 1;
         if (matchedPairs === cardList.length) {
