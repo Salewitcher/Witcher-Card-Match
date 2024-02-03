@@ -52,23 +52,20 @@ Witcher Card Game is a game that intends to attract people that are first of all
 
 ![Try Again and Quit buttons](media/modals.png)
 
-- **The Sign Up Page**
-
-  - This page will allow the user to get signed up to the chess club to start learning or competing with other players. The user will be able specify if they are a beginner, intermediate, or a pro player. The user will be asked to submit their full name and email address.
-  - The user will also be able to see contact for more information.
-
-![Sign Up Page](media/signup.png)
-![Sign Up Page](media/contact.png)
-
 - ## Testing
 
 ### Manual Testing
 
-- All links work properly
-- All hover effects work properly
-- Sign Up Form works properly 
-- Responsiveness works properly
-![Sign Up Form](media/form.png)
+- All buttons work properly
+- All modals work
+- All cards turn when clicked on
+- Cards stay open if matched
+- Cards close if not matched
+- Error counter works
+- Try Again button resets the game
+- Quit button stops the game
+- When all cards are mached a win message appears
+
 
 ### Validator Testing
 
@@ -143,4 +140,4 @@ The live link can be found here - <https://salewitcher.github.io/Chess-Lovers/>
 - The favicon used is from [Google](https://www.google.com/search?q=witcher+wolf+school+logo+jpg+download&sca_esv=27178ea4ecd47877&rlz=1C1CHZN_enIE1075IE1075&sxsrf=ACQVn09fPZNenzhSjTRNBHaFX_cnUczegA%3A1706647641187&ei=WWC5ZYPUCpWBhbIPt4mPsAE&oq=witcher+wolf&gs_lp=Egxnd3Mtd2l6LXNlcnAiDHdpdGNoZXIgd29sZioCCAAyBBAjGCcyCxAuGIAEGIoFGJECMgUQABiABDILEAAYgAQYigUYkQIyCxAAGIAEGIoFGJECMgUQABiABDILEAAYgAQYigUYkQIyBRAAGIAEMgUQABiABDIFEAAYgARIwihQAFiQFHAAeAGQAQGYAcYCoAHRDKoBBzcuMy4wLjK4AQHIAQD4AQHCAgoQIxiABBiKBRgnwgIKEAAYgAQYigUYQ8ICChAuGIAEGIoFGEPCAgsQLhiABBixAxiDAcICCxAAGIAEGLEDGIMBwgIOEC4YgAQYsQMYxwEY0QPCAhcQLhiABBiKBRiRAhixAxiDARjHARjRA8ICERAuGIAEGLEDGMcBGK8BGI4FwgIOEC4YgAQYigUYsQMYgwHCAhAQLhiABBiKBRhDGLEDGNQCwgIQEAAYgAQYFBiHAhixAxiDAcICCBAAGIAEGLEDwgIQEC4YQxjUAhixAxiABBiKBcICBRAuGIAE4gMEGAAgQQ&sclient=gws-wiz-serp)
 - The icons in the footer & navbar menu were taken from [Font Awesome](https://fontawesome.com/)
 
-[Back To Top](#chess-lovers)
+[Back To Top](#witcher-card-game)
