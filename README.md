@@ -118,22 +118,15 @@ The live link can be found here - <https://salewitcher.github.io/Witcher-Card-Ma
 
 ## Credits
 
-- Links hover idea from [CSS Tricks](https://css-tricks.com/css-link-hover-effects/)
-- Parts of text taken from [Way too Wise](<https://way2wise.com/chess/chess-quotes/>)
-- Youtube responsiness code borrowed from [CSS Trick: How to make an embedded iframe responsive?](https://www.youtube.com/watch?v=QG7JQkeaJy4)
-- Some of form style found at [Front End Joe`s Page](https://frontendjoe.com/)
-- Sign Up page background created at [Superdesigner](https://superdesigner.co/tools/css-backgrounds)
-- Instructions on how to implement form validation on the Sign Up page was taken from [Love running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/fc8bba87c52a4d91b32d1c7c28b1d79b/?child=first)
+- Modals Idea taken from [W3Schools](https://www.w3schools.com/)
+- GAme Idea and parts of code taken from [KennyYipCoding](https://www.youtube.com/@KennyYipCoding)
 
 ### Content
 
-- The text for the History page was taken from [Wikipedia] (<https://www.wikipedia.org/>)
-- Images taken from [Pexels](https://www.pexels.com/search/chess/)
-- Youtube video borrowed from[Gotham Chess](https://www.youtube.com/@GothamChess)
+- All content is written by designer with the idea offcourse coming mostly from my favourite ever video game "Witcher 3 - The Wild Hunt""
 
 ### Media
 
-- The favicon used is from [Google](https://www.google.com/search?q=witcher+wolf+school+logo+jpg+download&sca_esv=27178ea4ecd47877&rlz=1C1CHZN_enIE1075IE1075&sxsrf=ACQVn09fPZNenzhSjTRNBHaFX_cnUczegA%3A1706647641187&ei=WWC5ZYPUCpWBhbIPt4mPsAE&oq=witcher+wolf&gs_lp=Egxnd3Mtd2l6LXNlcnAiDHdpdGNoZXIgd29sZioCCAAyBBAjGCcyCxAuGIAEGIoFGJECMgUQABiABDILEAAYgAQYigUYkQIyCxAAGIAEGIoFGJECMgUQABiABDILEAAYgAQYigUYkQIyBRAAGIAEMgUQABiABDIFEAAYgARIwihQAFiQFHAAeAGQAQGYAcYCoAHRDKoBBzcuMy4wLjK4AQHIAQD4AQHCAgoQIxiABBiKBRgnwgIKEAAYgAQYigUYQ8ICChAuGIAEGIoFGEPCAgsQLhiABBixAxiDAcICCxAAGIAEGLEDGIMBwgIOEC4YgAQYsQMYxwEY0QPCAhcQLhiABBiKBRiRAhixAxiDARjHARjRA8ICERAuGIAEGLEDGMcBGK8BGI4FwgIOEC4YgAQYigUYsQMYgwHCAhAQLhiABBiKBRhDGLEDGNQCwgIQEAAYgAQYFBiHAhixAxiDAcICCBAAGIAEGLEDwgIQEC4YQxjUAhixAxiABBiKBcICBRAuGIAE4gMEGAAgQQ&sclient=gws-wiz-serp)
-- The icons in the footer & navbar menu were taken from [Font Awesome](https://fontawesome.com/)
+- The favicon and images used are from [Google](https://www.google.com/search?q=witcher+wolf+school+logo+jpg+download&sca_esv=27178ea4ecd47877&rlz=1C1CHZN_enIE1075IE1075&sxsrf=ACQVn09fPZNenzhSjTRNBHaFX_cnUczegA%3A1706647641187&ei=WWC5ZYPUCpWBhbIPt4mPsAE&oq=witcher+wolf&gs_lp=Egxnd3Mtd2l6LXNlcnAiDHdpdGNoZXIgd29sZioCCAAyBBAjGCcyCxAuGIAEGIoFGJECMgUQABiABDILEAAYgAQYigUYkQIyCxAAGIAEGIoFGJECMgUQABiABDILEAAYgAQYigUYkQIyBRAAGIAEMgUQABiABDIFEAAYgARIwihQAFiQFHAAeAGQAQGYAcYCoAHRDKoBBzcuMy4wLjK4AQHIAQD4AQHCAgoQIxiABBiKBRgnwgIKEAAYgAQYigUYQ8ICChAuGIAEGIoFGEPCAgsQLhiABBixAxiDAcICCxAAGIAEGLEDGIMBwgIOEC4YgAQYsQMYxwEY0QPCAhcQLhiABBiKBRiRAhixAxiDARjHARjRA8ICERAuGIAEGLEDGMcBGK8BGI4FwgIOEC4YgAQYigUYsQMYgwHCAhAQLhiABBiKBRhDGLEDGNQCwgIQEAAYgAQYFBiHAhixAxiDAcICCBAAGIAEGLEDwgIQEC4YQxjUAhixAxiABBiKBcICBRAuGIAE4gMEGAAgQQ&sclient=gws-wiz-serp)
 
 [Back To Top](#witcher-card-game)
