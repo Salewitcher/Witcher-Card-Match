@@ -86,28 +86,21 @@ Witcher Card Game is a game that intends to attract people that are first of all
 
 ### Lighthouse Testing
 
-- All seems OK except the Mobile index.html.
-- Tried to resize images with better performance result but not in green.
+- All seems OK
 
-![index.html Mobile](media/index.html_mobile.png)
-![index.html Desktop](media/index.html_desktop.png)
-![history.html Mobile](media/history.html_mobile.png)
-![history.html Desktop](media/history.html_desktop.png)
-![signup.html Mobile](media/signup.html_mobile.png)
-![signup.html Desktop](media/signup.html_mobile.png)
+![index.html Mobile](media/mobile_lighthouse_results.png)
+![index.html Desktop](media/desktop_lighthouse_results.png)
 
 ### Accessibility Testing
 
-- Two errors found on [Wave Web Accessibility](https://wave.webaim.org/)
-- Considered to add an opacity background on wrapper div.
-- Decided to leave like it is as a designer`s choice.
-![Wave Web Accessibility Screenshot](media/wave_webaim.png)
+- No errors found on [Wave Web Accessibility](https://wave.webaim.org/)
+![Wave Web Accessibility Screenshot](media/witcher_wave_webaim.png)
 
 ### Fixed Bugs
 
 - Images for README.md were not visible (solution : instead of "\" put "/" in the path)
-- Missing part of screen (solution: fixed by adding padding px instead %)
-- scale:value; said command doesn`t exist (solution: transition: scale(value))
+- When game starts modals are visible (solution: display: none;)
+- When try again button is clicked the board starts with 40 instead of 20 images (solution: put "resetGame()" into "playAgain()" function and inside it add (document.getElementById("board").innerHTML = "";) so the board starts as an empty string and new cards can be added to it)
 
 
 ### Errors
@@ -121,7 +114,7 @@ Witcher Card Game is a game that intends to attract people that are first of all
   - From the source section drop-down menu, select the Main Branch
   - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - <https://salewitcher.github.io/Chess-Lovers/>
+The live link can be found here - <https://salewitcher.github.io/Witcher-Card-Match/>
 
 ## Credits
 
