@@ -20,7 +20,7 @@ span.addEventListener('click', hideBlock);
 
 function hideBlock() {
     modal.style.display = "none";
-};
+}
 
 // When the user clicks anywhere outside of the modal, close it
 window.addEventListener('click', function (event) {

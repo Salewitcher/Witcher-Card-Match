@@ -72,14 +72,17 @@ Witcher Card Game is a game that intends to attract people that are first of all
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/#textarea)
   
-![Landing Page Validation](media/html_landingpage_valid.png)
-![History Page Validation](media/html_history_valid.png)
-![SignUp Page Validation](media/html_signup_valid.png)
+![HTML Validation](media/HTML_validator.png)
 
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
 
-![CSS Validation](media/css_valid.png)
+![CSS Validation](media/CSS_validator.png)
+
+- JS
+  - No errors were found when passing through the official [JS Hint validator](https://jshint.com/)
+
+![JS Validation](media/JS_validator.png)
 
 ### Lighthouse Testing
 
@@ -109,7 +112,7 @@ Witcher Card Game is a game that intends to attract people that are first of all
 
 ### Errors
 
-- Closing tag on section missing (solution: Add closing tag)
+- Unused semicolon (solution: Delete semicolon)
 
 ## Deployment
 
